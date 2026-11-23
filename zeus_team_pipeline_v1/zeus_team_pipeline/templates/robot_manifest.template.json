@@ -1,0 +1,19 @@
+{
+  "team": "mechanical-team",
+  "model_id": "robot_revision_name",
+  "source": "model/robot.xml",
+  "format": "mjcf",
+  "length_unit": "m",
+  "mass_unit": "kg",
+  "up_axis": "Z",
+  "base_link": "base_link",
+  "floating_base": true,
+  "actuated_joint_names": ["joint_1", "joint_2"],
+  "action_dimension": 2,
+  "physics_dt_seconds": 0.001,
+  "policy_dt_seconds": 0.02,
+  "expected_base_height_m": null,
+  "foot_link_names": [],
+  "asset_owner": "",
+  "notes": "Supply mesh files and inertials, collision geometry, joint limits, actuator torque limits, and verified standing configuration."
+}

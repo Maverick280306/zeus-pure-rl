@@ -1,0 +1,19 @@
+{
+  "team": "NEXUS-Zeus",
+  "model_id": "zeus_8dof_mujoco_baseline",
+  "source": "model/zeus_fast.xml",
+  "format": "mjcf",
+  "length_unit": "m",
+  "mass_unit": "kg",
+  "up_axis": "Z",
+  "base_link": "torso",
+  "floating_base": true,
+  "actuated_joint_names": ["left_hip_pitch", "left_hip_roll", "left_knee_pitch", "left_ankle_pitch", "right_hip_pitch", "right_hip_roll", "right_knee_pitch", "right_ankle_pitch"],
+  "action_dimension": 8,
+  "physics_dt_seconds": 0.001,
+  "policy_dt_seconds": 0.02,
+  "expected_base_height_m": 0.6643,
+  "foot_link_names": ["left_sole_box", "right_sole_box"],
+  "asset_owner": "NEXUS",
+  "notes": "Source values from Zeus MuJoCo baseline; confirm correct mapping after USD conversion. foot_link_names are MuJoCo sole geom names, not verified Isaac body paths."
+}
